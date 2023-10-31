@@ -55,13 +55,29 @@
     margin-left: -12rem;
 }
 
-.project button {
+.skill {
+    margin-top: 5rem;
+}
+
+.skill button {
+    border: 0;
+    background-color: #ebc6c6;
+    color: black;
+    border-radius: 5px;
+    height: 35px;
+    width: 100px;
+    margin-left: 20px;
+}
+
+.project .button {
     /* padding-left: 30px; */
     border-radius: 3px;
     margin-left: 30px;
-    color: white;
-    background-color: #869791;
+    color: black;
+    background-color:#ebc6c6;
     border: 0px;
+    height: 35px;
+    width: 100px;
 }
 
 .row p {
@@ -107,8 +123,9 @@
     border-radius: 2px;
     outline: none;
     box-shadow: none;
-    font-weight: bold;
+    font-weight: 400;
     margin: 16px 0;
+    font-size: 20px;
   }
   .container1 .form-control:not(textarea) {
     height: 48px;
@@ -117,10 +134,10 @@
     border-color: #ffc200;
   }
   .container1 .submit-btn {
-    background: #ffc200;
+    background: #ebc6c6;
     border-radius: 50px;
-    color: #ffffff;
-    font-weight: bold;
+    color: black;
+    font-weight: 400;
     border: 0;
     cursor: pointer;
     transition: all 0.4s ease;
